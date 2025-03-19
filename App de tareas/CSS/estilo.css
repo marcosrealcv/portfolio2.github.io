@@ -1,0 +1,92 @@
+:root {
+  color: aqua;
+  color: blueviolet;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, aqua, blueviolet);
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.perfil h1 {
+  color: black;
+}
+.perfil span {
+  color: black;
+  letter-spacing: 1px;
+}
+#fecha {
+  color: azure;
+  padding: 50px 0 5px 0px;
+}
+.agregar-tarea {
+  margin: 40px 0;
+  background-color: aqua;
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 70px;
+}
+.agregar-tarea input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: aqua;
+}
+.agregar-tarea i {
+  font-size: 60px;
+  color: blueviolet;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.agregar-tarea i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.agregar-tarea input::placeholder {
+  font-size: 1.1rem;
+  color: blueviolet;
+}
+.seccion-tarea h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+.seccion-tarea li {
+  display: flex;
+  background: linear-gradient(to bottom, lightblue, blueviolet);
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.seccion-tarea i {
+  font-size: 25px;
+}
+.seccion-tarea i:hover {
+  color: aqua;
+  cursor: pointer;
+}
+.seccion-tarea > ul p {
+  font-size: 1.2rem;
+}
+.line-through {
+  text-decoration: line-through;
+  color: aqua;
+}
+.date {
+  color: black;
+}
